@@ -1,0 +1,21 @@
+
+body {
+  margin: 0px;
+  background-color: #ffc4c4;
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#intro_paragraph {
+  text-align: center;
+  padding: 75px;
+  font-size: 20px;
+}
+
+white {
+  color: #ffffff;
+}
+
+dark_pink {
+  color: #FD999D;
+}

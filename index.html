@@ -1,36 +1,62 @@
 <html>
 
 <head>
-  <title>Sam Jaehnig </title>
+  <meta charset='UTF-8'/>
+  <title> </title>
   <link href="styles.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
 
 
   </head>
 
 
-  <body>
-    <h1> Sam </h1>
+  <body id='body'>
 
-    <a href="https://www.linkedin.com/in/sam-jaehnig-3932b5195/">LinkedIn</a>
+    <div class='intro'>
+      <div class='typing'> hi! i'm sam jaehnig!</div>
 
-    <p class="b i"> Hi I'm Sam </p>
-    <p> Hi I'm Samay </p>
-    <p> Hi I'm Jason </p>
+      <div class='arrow'>
+          <svg id="down_arrow" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
+            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+              stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
+              style="mix-blend-mode: normal">
+              <path d="M0,172v-172h172v172z" fill="none"></path>
+              <g>
+                <path d="M2.65391,86c0,-46.02344 37.32266,-83.34609 83.34609,-83.34609c46.02344,0 83.34609,37.32266
+                83.34609,83.34609c0,46.02344 -37.32266,83.34609 -83.34609,83.34609c-46.02344,0 -83.34609,-37.32266 -83.34609,-83.34609z" fill="#fd999d">
+                  </path>
+                <path d="M119.29141,66.28047c-10.27969,10.27969
+                -20.55938,20.59297 -30.87266,30.87266c-10.31328,-10.31328 -20.62656,-20.62656 -30.93984,-30.93984c-9.00313,-9.00313 -22.91094,5.00547 -13.87422,14.04219c12.63125,12.63125 25.2625,25.2625
+                37.89375,37.89375c3.82969,3.82969 10.17891,3.72891 13.94141,-0.06719c12.63125,-12.63125 25.2625,-25.2625 37.89375,-37.89375c8.96953,-9.03672 -5.03906,-22.94453 -14.04219,-13.90781z"
+                fill="#ffffff">
+                  </path>
+                </g>
+              </g>
+            </svg>
+        </div>
+      </div>
 
 
-    <img src="https://media.licdn.com/dms/image/C4E03AQEJTCzBC3pFzA/profile-displayphoto-shrink_200_200/0?e=1580342400&v=beta&t=9uvVD7sfG9xVJ6iGpZVpi-Yhw6tGIxrpyRY-VXHniog" />
+
+      <div class='information' id='information'>
+
+        <img id='profile_image' src="file:///Users/samjaehnig/Desktop/personal_website/profile.png" alt="profile">
+
+        <p id="intro_paragraph">
+          Hello! My name is Sam Jaehnig! Welcome to my personal website. I'm from <white>Cupertino, California</white> and am currently a rising sophomore studying at the
+          <white>University of Michigan, Ann Arbor</white> in the College of Engineering as a Computer Science & Data Science double major........ blah blah blah
+        </p>
+      </div>
 
 
-
-    </body>
-
-
-<script>
-
-console.log("Hey thanks for visiting");
-var a = "sam";
-
-</script>
+      <script>
+        down_arrow.onclick = function(event) {
+          document.getElementById("body").style.overflow = "visible";
+          document.getElementById("information").scrollIntoView();
+        }
+      </script>
+  </body>
 
 </html>

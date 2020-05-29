@@ -1,14 +1,79 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  margin: 0px;
+  background-color: #ffc4c4;
+  height: 100%;
+  vertical-align: center;
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+}
+
+.intro {
+  height: 100%;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.information {
+  background-color: #FD999D;
+  display: flex;
+  height: 100%;
+}
+
+#profile_image {
+  margin: 75px;
+  margin-right: 0px;
+  border-radius: 40%;
+  border: 5px solid white;
+  width: 250px;
+  height: 300px;
+}
+
+#intro_paragraph {
+  text-align: left;
+  color: #ffffff;
+  padding: 75px;
+  font-size: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  line-height: 25px;
+}
+
+#down_arrow {
+  text-align: center;
+}
+
+#arrow_button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.typing {
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  font-size: 90px;
+  overflow: hidden;
+  white-space: nowrap;
   margin: 0 auto;
-  max-width: 50em;
-  padding: 16px;
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 275px;
+  padding-bottom: 50px;
+  animation:
+    typing 4.0s steps(50, end);
 }
 
-body img {
-  border-radius: 4px;
-}
-
-.sam {
-  font-weight: bold;
+@keyframes typing {
+  from { width : 0 }
+  to { width : 100% }
 }
