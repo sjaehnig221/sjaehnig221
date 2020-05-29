@@ -9,8 +9,6 @@ body {
   background-color: #ffc4c4;
   height: 100%;
   vertical-align: center;
-  overflow: hidden;
-  scroll-behavior: smooth;
 
 }
 
@@ -23,9 +21,32 @@ body {
 }
 
 .current {
-  background-color: #FD999D;
+  background-color: #fd999d;
   height: 100%;
+  text-align: center;
 }
+
+.blog {
+  height: 100%;
+  background-color: #fd999d;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+  margin-top: 50px;
+  line-height: 50px;
+}
+
+#freshman_blog_link {
+    color: white;
+    text-decoration: none;
+}
+
+#quotes_link {
+  color: ffc4c4;
+  text-decoration: none;
+}
+
 
 #items {
   font-family: 'Inconsolata', monospace;
@@ -37,13 +58,22 @@ body {
 }
 
 
-#current_title {
+#current_title{
   font-family: 'Quicksand', sans-serif;
   font-size: 50px;
   text-align: center;
   color: white;
   padding-top: 75px;
 }
+
+#blog_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 75px;
+}
+
 
 .information {
   background-color: #ffc4c4;
@@ -70,18 +100,28 @@ body {
 
 }
 
+.menu {
+  text-align: right;
+}
+
+#menu_icon {
+  margin-top: 5px;
+  margin-right: 5px
+}
+
 
 
 
 #intro_title {
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 #intro_paragraph {
   font-family: 'Inconsolata', monospace;
   font-size: 21px;
   line-height: 25px;
+  margin-top: 25px;
 }
 
 #down_arrow {
@@ -104,7 +144,7 @@ body {
   white-space: nowrap;
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
-  padding-top: 275px;
+  padding-top: 215px;
   padding-bottom: 50px;
   animation:
     typing 4.0s steps(50, end);

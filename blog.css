@@ -1,0 +1,18 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0px;
+  background-color: #ffc4c4;
+  height: 100%;
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  line-height: 600px;
+
+
+}
