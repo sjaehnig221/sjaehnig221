@@ -38,23 +38,31 @@
         </div>
       </div>
 
+      <div class='current' id='current'>
+        <p id="current_title">what i'm up to</p>
+
+      </div>
+
 
 
       <div class='information' id='information'>
-
         <img id='profile_image' src="profile.png" alt="profile">
+        <div class='intro_text'>
+          <p id="intro_title">about me</p>
+          <p id="intro_paragraph">
+            Hello! My name is Sam Jaehnig! Welcome to my personal website.<br> I'm from <dark_pink>Cupertino, California</dark_pink> and am currently a rising sophomore studying at the
+            <dark_pink>University of Michigan, Ann Arbor</dark_pink> in the College of Engineering as a Computer Science & Data Science double major.
+          </p>
+          <p>
 
-        <p id="intro_paragraph">
-          Hello! My name is Sam Jaehnig! Welcome to my personal website. I'm from <white>Cupertino, California</white> and am currently a rising sophomore studying at the
-          <white>University of Michigan, Ann Arbor</white> in the College of Engineering as a Computer Science & Data Science double major........ blah blah blah
-        </p>
+        </div>
       </div>
 
 
       <script>
         down_arrow.onclick = function(event) {
           document.getElementById("body").style.overflow = "visible";
-          document.getElementById("information").scrollIntoView();
+          document.getElementById("current").scrollIntoView();
         }
       </script>
   </body>
