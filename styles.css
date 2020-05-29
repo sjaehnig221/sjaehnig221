@@ -3,7 +3,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   margin: 0px;
   background-color: #ffc4c4;
@@ -26,9 +25,15 @@ body {
   text-align: center;
 }
 
+.education {
+  background-color: #fd999d;
+  height: 100%;
+  text-align: center;
+}
+
 .blog {
   height: 100%;
-  background-color: #fd999d;
+  background-color: #ffc4c4;
   text-align: center;
   color: white;
   font-size: 25px;
@@ -43,10 +48,9 @@ body {
 }
 
 #quotes_link {
-  color: ffc4c4;
+  color: white;
   text-decoration: none;
 }
-
 
 #items {
   font-family: 'Inconsolata', monospace;
@@ -57,8 +61,15 @@ body {
   text-align: center;
 }
 
-
 #current_title{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 75px;
+}
+
+#education_title {
   font-family: 'Quicksand', sans-serif;
   font-size: 50px;
   text-align: center;
@@ -74,14 +85,11 @@ body {
   padding-top: 75px;
 }
 
-
 .information {
   background-color: #ffc4c4;
   display: flex;
   height: 100%;
 }
-
-
 
 #profile_image {
   margin: 75px;
@@ -97,7 +105,6 @@ body {
   color: #ffffff;
   padding: 75px;
   padding-top: 50px;
-
 }
 
 .menu {
@@ -108,9 +115,6 @@ body {
   margin-top: 5px;
   margin-right: 5px
 }
-
-
-
 
 #intro_title {
   font-family: 'Quicksand', sans-serif;
@@ -147,10 +151,10 @@ body {
   padding-top: 215px;
   padding-bottom: 50px;
   animation:
-    typing 4.0s steps(50, end);
+    type 4.0s steps(50, end);
 }
 
-@keyframes typing {
+@keyframes type {
   from { width : 0 }
   to { width : 100% }
 }
