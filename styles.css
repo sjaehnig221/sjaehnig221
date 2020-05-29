@@ -11,132 +11,12 @@ body {
 
 }
 
+
+
 .intro {
   height: 100%;
-}
-
-.arrow {
   text-align: center;
-}
-
-.current {
-  background-color: #fd999d;
-  height: 100%;
-  text-align: center;
-}
-
-.education {
-  background-color: #fd999d;
-  height: 100%;
-  text-align: center;
-}
-
-.blog {
-  height: 100%;
-  background-color: #ffc4c4;
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  font-family: 'Inconsolata', monospace;
-  margin-top: 50px;
-  line-height: 50px;
-}
-
-#freshman_blog_link {
-    color: white;
-    text-decoration: none;
-}
-
-#quotes_link {
-  color: white;
-  text-decoration: none;
-}
-
-#items {
-  font-family: 'Inconsolata', monospace;
-  font-size: 30px;
-  line-height: 35px;
-  color: white;
-  margin-top: 50px;
-  text-align: center;
-}
-
-#current_title{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  padding-top: 75px;
-}
-
-#education_title {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  padding-top: 75px;
-}
-
-#blog_title {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  padding-top: 75px;
-}
-
-.information {
-  background-color: #ffc4c4;
-  display: flex;
-  height: 100%;
-}
-
-#profile_image {
-  margin: 75px;
-  margin-right: 0px;
-  border-radius: 40%;
-  border: 5px solid white;
-  width: 250px;
-  height: 300px;
-}
-
-.intro_text {
-  text-align: left;
-  color: #ffffff;
-  padding: 75px;
-  padding-top: 50px;
-}
-
-.menu {
-  text-align: right;
-}
-
-#menu_icon {
-  margin-top: 5px;
-  margin-right: 5px
-}
-
-#intro_title {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
-}
-
-#intro_paragraph {
-  font-family: 'Inconsolata', monospace;
-  font-size: 21px;
-  line-height: 25px;
-  margin-top: 25px;
-}
-
-#down_arrow {
-  text-align: center;
-}
-
-#arrow_button {
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
+  margin: 0px;
 }
 
 .typing {
@@ -158,6 +38,152 @@ body {
   from { width : 0 }
   to { width : 100% }
 }
+
+
+.menu {
+  text-align: right;
+}
+
+#menu_icon {
+  margin-top: 5px;
+  margin-right: 5px
+}
+
+#arrow_button {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+
+
+.current {
+  background-color: #fd999d;
+  height: 100%;
+  text-align: center;
+}
+
+#current_title{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding-top: 75px;
+  margin: 0px;
+}
+
+#items {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
+.information {
+  background-color: #ffc4c4;
+  display: flex;
+  height: 100%;
+}
+
+.intro_text {
+  text-align: left;
+  color: #ffffff;
+  padding: 75px;
+}
+
+#intro_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+
+#intro_paragraph {
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  line-height: 25px;
+  margin-top: 25px;
+}
+
+#profile_image {
+  margin: 75px;
+  margin-right: 0px;
+  border-radius: 40%;
+  border: 5px solid white;
+  width: 250px;
+  height: 300px;
+}
+
+
+
+.education {
+  background-color: #fd999d;
+  height: 100%;
+  text-align: center;
+}
+
+.schools {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  color: white;
+}
+
+#high_school_title, #college_title {
+  margin: 75px;
+  margin-top: 0px;
+  color: #ffc4c4;
+}
+
+#education_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 75px;
+  padding-bottom: 0px;
+  margin-bottom: 50px;
+}
+
+
+
+.blog {
+  height: 100%;
+  background-color: #ffc4c4;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  line-height: 35px;
+  font-family: 'Inconsolata', monospace;
+}
+
+#blog_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  padding: 75px;
+  padding-bottom: 0px;
+  margin-bottom: 75px;
+}
+
+#freshman_blog_link {
+    color: white;
+    text-decoration: none;
+
+}
+
+#quotes_link {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
 light_pink {
