@@ -27,6 +27,15 @@ body {
   height: 100%;
 }
 
+#items {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+}
+
 
 #current_title {
   font-family: 'Quicksand', sans-serif;
