@@ -12,6 +12,26 @@ body {
 }
 
 
+.menu {
+  text-align: right;
+}
+
+#link_list {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding-right: 15px;
+}
+
+#current_link, #education_link, #information_link, #blog_link, #contact_link  {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  line-height: 25px;
+  decoration: none;
+  text-decoration: none;
+
+}
 
 .intro {
   height: 100%;
@@ -37,13 +57,9 @@ body {
   from { width : 0 }
   to { width : 100% }
 }
-.menu {
-  text-align: right;
-}
 
 #menu_icon {
   margin-top: 5px;
-  margin-right: 5px
 }
 
 #arrow_button {
@@ -166,6 +182,9 @@ body {
   font-size: 25px;
   text-align: left;
   color: white;
+}
+
+#current, #complete {
   padding-top: 15px;
 }
 
@@ -211,6 +230,7 @@ body {
   text-decoration: none;
 }
 
+
 .contact {
   height: 50%;
   background-color: #fd999d;
@@ -219,6 +239,11 @@ body {
   font-size: 30px;
   line-height: 35px;
   font-family: 'Inconsolata', monospace;
+}
+
+.contact_links {
+  display: flex;
+  justify-content: space-around;
 }
 
 
