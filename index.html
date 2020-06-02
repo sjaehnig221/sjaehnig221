@@ -60,7 +60,7 @@
           <p>running & biking</p>
           <p><light_pink>making sidewalk art with my sister</light_pink></p>
           <p>participating in the UofM COVID-19 campus challenge</p>
-          <p><light_pink>reading the new hunger games novel</light_pink></p>
+          <p><light_pink><u>reading</u> the new hunger games novel</light_pink></p>
           <p>listening to music & podcasts</p>
           <p><light_pink>facetiming friends</light_pink></p>
         </div>
@@ -146,8 +146,14 @@
         }
 
         function display_menu() {
-          document.getElementById("link_list").style.display = "block";
+          if(document.getElementById("link_list").style.display == 'none'){
+            document.getElementById("link_list").style.display = "block";
+          } else {
+            document.getElementById("link_list").style.display = "none";
+          }
         }
+
+
       </script>
   </body>
 

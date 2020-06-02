@@ -33,6 +33,10 @@ body {
 
 }
 
+#current_link:hover, #education_link:hover, #information_link:hover, #blog_link:hover, #contact_link:hover {
+  color: #fd999d;
+}
+
 .intro {
   height: 100%;
   text-align: center;
