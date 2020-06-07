@@ -1,7 +1,5 @@
 
 body {
-  margin: 0px;
-  padding: 0px;
   background-color: #fd999d;
   height: 100%;
   text-align: center;
@@ -12,7 +10,7 @@ body {
 .title {
   font-size: 75px;
   font-family: 'Quicksand', sans-serif;
-  margin-top: 75px;
+  padding-top: 75px;
   line-height: 75px;
   padding-bottom: 15px;
 
@@ -32,6 +30,5 @@ body {
   padding-top: 30px;
   color: white;
   font-family: 'Inconsolata', monospace;
-  margin-bottom: 0px
-
+  padding-bottom:75px;
 }
