@@ -172,7 +172,7 @@ body {
   padding-bottom: 50px;
 }
 
-#current, #complete, #upcoming {
+#current_classes, #complete, #upcoming {
   font-family: 'Inconsolata', monospace;
   font-size: 25px;
   text-align: left;
