@@ -139,27 +139,18 @@ body {
 .education {
   background-color: #fd999d;
   height: 125%;
-  text-align: center;
 }
 
 .college {
   float: left;
   width: 50%;
+  text-align: center;
 }
 
 .high_school {
   float: right;
   width: 50%;
-}
-
-.college_classes, .high_school_classes {
-  margin-left: 150px;
-  margin-right: 75px;
-}
-
-.high_school_classes {
-  margin-left: 75px;
-  margin-right: 150px;
+  text-align: center;
 }
 
 
@@ -186,13 +177,14 @@ body {
   font-size: 25px;
   text-align: left;
   color: white;
+  margin-left: 100px;
 }
 
 #current, #complete {
   padding-top: 15px;
 }
 
-.high_school_classes, .college_classes, #stats {
+.high_school_classes, .college_classes, .other_classes {
   font-family: 'Inconsolata', monospace;
   font-size: 21px;
   line-height: 25px;
