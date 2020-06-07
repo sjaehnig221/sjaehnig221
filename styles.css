@@ -224,19 +224,15 @@ body {
   margin-bottom: 75px;
 }
 
-#freshman_blog_link {
+#coding_journey_1_link{
     color: white;
     text-decoration: none;
 }
 
-#quotes_link {
-  color: white;
-  text-decoration: none;
-}
 
 
 .contact {
-  height: 50%;
+  height: 25%;
   background-color: #fd999d;
   text-align: center;
   color: white;
@@ -246,8 +242,12 @@ body {
 }
 
 .contact_links {
+  padding-top: 75px;
+  margin-left: 500px;
+  margin-right: 500px;
   display: flex;
   justify-content: space-around;
+  font-size: 25px;
 }
 
 
