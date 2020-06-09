@@ -103,6 +103,7 @@ body {
 .information {
   background-color: #ffc4c4;
   display: flex;
+  justify-content: flex-end;
 }
 
 .intro_text {
@@ -130,6 +131,7 @@ body {
   border: 7px solid #fd999d;
   width: 250px;
   height: 300px;
+  flex-shrink: 2;
 }
 
 
