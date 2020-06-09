@@ -225,18 +225,17 @@ body {
 
 .contact {
   background-color: #fd999d;
-  text-align: center;
   color: white;
   font-size: 30px;
   line-height: 35px;
   font-family: 'Inconsolata', monospace;
   padding-bottom: 75px;
+  justify-content: center;
+  display: flex;
 }
 
 .contact_links {
   padding-top: 75px;
-  margin-left: 500px;
-  margin-right: 500px;
   display: flex;
   justify-content: space-around;
   font-size: 25px;
