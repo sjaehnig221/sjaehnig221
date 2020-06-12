@@ -33,3 +33,7 @@ body {
   font-family: 'Inconsolata', monospace;
   padding-bottom:75px;
 }
+
+#back {
+  cursor: pointer;
+}
