@@ -13,8 +13,12 @@ body {
 
 .menu {
   text-align: right;
-  background-color: #fd999d;
 
+}
+
+#menu_icon {
+  background-color: #fd999d;
+  margin: 5px;
 }
 
 .menu_header {
@@ -22,19 +26,11 @@ body {
   justify-content: flex-end;
 }
 
-#menu_title {
-  color: white;
-  font-family: 'Inconsolata', monospace;
-  font-size: 21px;
-  line-height: 25px;
-}
-
 #link_list {
     display: none;
     position: absolute;
     right: 0;
     padding-right: 15px;
-    padding-top: 15px;
 }
 
 #current_link, #education_link, #information_link, #blog_link, #contact_link, #more_link  {
@@ -85,6 +81,7 @@ body {
 
 #menu_icon {
   margin-top: 5px;
+  cursor: pointer;
 }
 
 #arrow_button {
@@ -183,6 +180,10 @@ body {
   display: flex;
   justify-content: space-around;
   font-size: 25px;
+}
+
+#resume_icon, #instagram_icon, #twitter_icon, #facebook_icon, #linkedin_icon, #email_icon, #down_arrow_1 {
+  cursor: pointer;
 }
 
 

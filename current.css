@@ -3,7 +3,11 @@ body {
   background-color: #fd999d;
   padding: 75px;
   margin: 0px;
-  
+
+}
+
+#back {
+  cursor: pointer;
 }
 
 .current{
