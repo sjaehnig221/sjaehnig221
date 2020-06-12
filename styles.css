@@ -97,6 +97,7 @@ body {
 .information {
   background-color: #fd999d;
   display: flex;
+  justify-content: flex-end;
 }
 
 .intro_text {
@@ -123,6 +124,8 @@ body {
   margin-right: 0px;
   border-radius: 40%;
   border: 7px solid #ffc4c4;
+  width: 250px;
+  height: 300px;
 }
 
 
