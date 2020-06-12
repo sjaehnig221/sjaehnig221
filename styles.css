@@ -13,6 +13,20 @@ body {
 
 .menu {
   text-align: right;
+  background-color: #fd999d;
+
+}
+
+.menu_header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#menu_title {
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  line-height: 25px;
 }
 
 #link_list {
@@ -20,20 +34,28 @@ body {
     position: absolute;
     right: 0;
     padding-right: 15px;
+    padding-top: 15px;
 }
 
-#current_link, #education_link, #information_link, #blog_link, #contact_link  {
+#current_link, #education_link, #information_link, #blog_link, #contact_link, #more_link  {
   color: white;
   font-family: 'Inconsolata', monospace;
   font-size: 21px;
   line-height: 25px;
   decoration: none;
   text-decoration: none;
-
 }
 
 #current_link:hover, #education_link:hover, #information_link:hover, #blog_link:hover, #contact_link:hover {
   color: #fd999d;
+}
+
+#more_link:hover {
+  color: #ffc4c4;
+}
+
+#more_link {
+  text-align: right;
 }
 
 .intro {
@@ -74,47 +96,22 @@ body {
 
 
 
-.current{
-  background-color: #fd999d;
-  text-align: center;
-}
-
-#current_title, #education_title, #blog_title, #contact_title {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  padding-top: 75px;
-  margin: 0px;
-}
-
-#items {
-  font-family: 'Inconsolata', monospace;
-  font-size: 30px;
-  line-height: 35px;
-  color: white;
-  margin-top: 50px;
-  text-align: center;
-  padding-bottom: 75px;
-}
-
-
 
 .information {
-  background-color: #ffc4c4;
+  background-color: #fd999d;
   display: flex;
-  justify-content: flex-end;
 }
 
 .intro_text {
-  text-align: left;
   color: #ffffff;
   padding: 75px;
+  text-align: right;
 }
 
 #intro_title {
   font-family: 'Quicksand', sans-serif;
   font-size: 35px;
+  text-align: left;
 }
 
 #intro_paragraph {
@@ -122,76 +119,17 @@ body {
   font-size: 21px;
   line-height: 25px;
   margin-top: 25px;
+  text-align: left;
 }
 
 #profile_image {
   margin: 75px;
   margin-right: 0px;
   border-radius: 40%;
-  border: 7px solid #fd999d;
+  border: 7px solid #ffc4c4;
   width: 250px;
   height: 300px;
   flex-shrink: 2;
-}
-
-
-
-.education {
-  background-color: #fd999d;
-  padding-bottom: 75px;
-}
-
-.schools {
-  display: flex;
-}
-
-.college {
-  width: 50%;
-  text-align: center;
-}
-
-.high_school {
-  width: 50%;
-  text-align: center;
-}
-
-
-#high_school_title, #college_title, #other_title {
-  margin: 75px;
-  margin-top: 0px;
-  color: #ffc4c4;
-  margin-bottom: 25px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
-}
-
-#other_title {
-  text-align: center;
-  padding-top: 25px;
-}
-
-#education_title {
-  padding-bottom: 50px;
-}
-
-#current_classes, #complete, #upcoming {
-  font-family: 'Inconsolata', monospace;
-  font-size: 25px;
-  text-align: left;
-  color: white;
-  margin-left: 100px;
-}
-
-#current, #complete {
-  padding-top: 15px;
-}
-
-.high_school_classes, .college_classes, .other_classes {
-  font-family: 'Inconsolata', monospace;
-  font-size: 21px;
-  line-height: 25px;
-  text-align: center;
-  color: white;
 }
 
 
@@ -218,9 +156,13 @@ body {
   margin-bottom: 75px;
 }
 
-#coding_journey_1_link{
+#coding_journey_1_link {
     color: white;
     text-decoration: none;
+}
+
+#coding_journey_1_link:hover {
+  color: #fd999d;
 }
 
 

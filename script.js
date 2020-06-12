@@ -1,5 +1,5 @@
 down_arrow_1.onclick = function(event) {
-  document.getElementById("current").scrollIntoView();
+  document.getElementById("information").scrollIntoView();
 }
 
 menu_icon.onclick = function(event) {
@@ -26,6 +26,10 @@ email_icon.onclick = function(event) {
   location.href = "mailto:sjaehnig@umich.edu";
 }
 
-resume.onclick = function(event) {
+resume_icon.onclick = function(event) {
   location.href = "resume.pdf";
+}
+
+instagram_icon.onclick = function(event) {
+  location.href = "https://www.instagram.com/sammmmy.j/";
 }

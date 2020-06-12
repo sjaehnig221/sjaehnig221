@@ -1,0 +1,59 @@
+
+body {
+  background-color: #fd999d;
+  padding: 75px;
+  margin: 0px;
+
+}
+
+.schools {
+  display: flex;
+}
+
+.college {
+  width: 50%;
+  text-align: center;
+}
+
+.high_school {
+  width: 50%;
+  text-align: center;
+}
+
+
+#high_school_title, #college_title, #other_title {
+  color: #ffc4c4;
+  padding-top: 25px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin: 0px;
+}
+
+#education_title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+#current_classes, #complete, #upcoming {
+  font-family: 'Inconsolata', monospace;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 25px;
+}
+
+.high_school_classes, .college_classes, .other_classes {
+  font-family: 'Inconsolata', monospace;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

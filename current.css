@@ -1,0 +1,32 @@
+
+body {
+  background-color: #fd999d;
+  padding: 75px;
+  margin: 0px;
+  
+}
+
+.current{
+  background-color: #fd999d;
+  text-align: center;
+}
+
+#current_title{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin: 0px;
+}
+
+#items {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  line-height: 35px;
+  color: white;
+  margin-top: 50px;
+}
+
+light_pink {
+  color: #ffc4c4;
+}
