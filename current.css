@@ -6,9 +6,6 @@ body {
 
 }
 
-#back {
-  cursor: pointer;
-}
 
 .current{
   background-color: #fd999d;
