@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset='UTF-8'/>
-  <title> </title>
+  <title>quotes form</title>
   <link href="blog.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
@@ -31,11 +31,13 @@
       <br>
       <br>
 
+      <main>
       <form action="quotes.php" method="post">
       <label for="quotes">I would love to read one of your favorite quotes:</label> <br>
       <input type="text" id="quotes" name="quotes">
       <input type="submit" value="send">
     </form>
+  </main>
 
     </div>
 
