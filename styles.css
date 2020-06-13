@@ -97,7 +97,6 @@ body {
 .information {
   background-color: #fd999d;
   display: flex;
-  justify-content: flex-end;
 }
 
 .intro_text {
