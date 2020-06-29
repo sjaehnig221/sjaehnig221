@@ -122,8 +122,11 @@ body {
   margin-right: 0px;
   border-radius: 40%;
   border: 7px solid #ffc4c4;
-  width: 250px;
-  height: 300px;
+}
+
+img {
+  max-width: 20vw;
+  max-height: 25vw;
 }
 
 
