@@ -88,3 +88,15 @@ body {
 ::placeholder {
   color: #fd999d;
 }
+
+
+#blog_inner_link {
+  color: white;
+}
+
+#inner_quote {
+  border-left: 3px solid white;
+  padding: 0px 10px;
+  margin: 0px 10px;
+  color: white;
+}

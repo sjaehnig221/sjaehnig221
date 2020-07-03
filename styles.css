@@ -149,14 +149,15 @@ body {
   margin-bottom: 75px;
 }
 
-#coding_journey_1_link, #quotes_link {
+#coding_journey_1_link, #quotes_link, #speech_link {
     color: white;
     text-decoration: none;
 }
 
-#coding_journey_1_link:hover, #quotes_link:hover {
+#coding_journey_1_link:hover, #quotes_link:hover, #speech_link:hover {
   color: #fd999d;
 }
+
 
 
 

@@ -33,3 +33,7 @@ resume_icon.onclick = function(event) {
 instagram_icon.onclick = function(event) {
   location.href = "https://www.instagram.com/sammmmy.j/";
 }
+
+back.onclick = function(event) {
+  location.href = "index.html";
+}
