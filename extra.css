@@ -9,7 +9,7 @@ body {
   font-size: calc(40px + 2vw);
   min-width: 70%;
   font-family: 'Quicksand', sans-serif;
-  margin: 10px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ a:hover {
   text-align: left;
   margin-left: 20px;
   width: 20px;
-  background-color: #FDC3C5;
+  background-color: #fdc3c5;
   padding: 10px 11px 10px 10px;
   border-radius: 100%;
 }
@@ -46,7 +46,56 @@ a:hover {
 }
 
 #back_button span {
-  background-color: #FDC3C5;
+  background-color: #fdc3c5;
   padding: 5px 15px;
   border-radius: 100%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  background-color: #fdc3c5;
+  width: 350px;
+  text-align: center;
+  margin: 25px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #000000;
+  font-family: 'Inconsolata', monospace;
+  box-shadow: 3px 3px #ffffff;
+}
+
+#project_title {
+  font-size: 22px;
+  margin: 10px;
+  color: white;
+}
+
+#project_image {
+  width: 275px;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.project_content {
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  padding: 50px 0px;
+}
+
+#link {
+  height: 30px;
+  margin: 5px 0px;
+}
+
+#link:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }

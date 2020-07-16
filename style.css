@@ -80,7 +80,7 @@ body {
 
 #arrow {
   width: 30px;
-  background-color: #FDC3C5;
+  background-color: #fdc3c5;
   padding: 12px 10px 10px 10px;
   border-radius: 100%;
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .information {
-  background-color: #FDC3C5;
+  background-color: #fdc3c5;
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
@@ -101,6 +101,7 @@ body {
 .intro_text {
   color: #ffffff;
   text-align: left;
+  margin-bottom: 25px;
 }
 
 #intro_title {
@@ -141,17 +142,16 @@ body {
   font-size: 50px;
   text-align: center;
   color: #000000;
-  padding: 75px;
+  padding: 50px;
   padding-bottom: 0px;
-  margin-bottom: 75px;
+  margin-bottom: 50px;
   margin-top: 0px;
 }
 
 #coding_journey_1_link, #quotes_link, #speech_link {
   color: #000000;
   text-decoration: none;
-  border: 1.25px solid #FDC3C5;
-
+  border: 1.25px solid #fdc3c5;
   padding: 5px 10px;
   border-radius: 10px;
 }
@@ -161,7 +161,7 @@ body {
 }
 
 .contact {
-  background-color: #FDC3C5;
+  background-color: #fdc3c5;
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   display: flex;
@@ -170,7 +170,7 @@ body {
 }
 
 #contact_link {
-  margin: 75px 10px 75px 10px;
+  margin: 100px 10px 50px 10px;
 }
 
 #contact_link:hover {
