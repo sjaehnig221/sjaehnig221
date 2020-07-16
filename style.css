@@ -165,7 +165,8 @@ body {
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   display: flex;
-  
+  flex-wrap: wrap;
+  color: #ffffff;
 }
 
 #contact_link {
@@ -175,6 +176,53 @@ body {
 #contact_link:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+#email_input {
+  padding: 5px;
+  color: #000000;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Inconsolata', monospace;
+  width: 72%;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+#message_input {
+  padding: 5px;
+  color: #000000;
+  border: none;
+  border-radius: 7px;
+  font-family: 'Inconsolata', monospace;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+#submit_button {
+  border: none;
+  font-family: 'Inconsolata', monospace;
+  background-color: #fddfdd;
+  padding: 4px 8px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+#submit_button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+#email_input:focus, #message_input:focus, #submit_button:focus {
+  outline: none;
+}
+
+form {
+  width: 200px;
+  margin: 50px 10px 50px 10px;
+  padding-left: 50px;
 }
 
 light_pink {

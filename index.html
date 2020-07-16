@@ -19,7 +19,7 @@
         <div class="menu_header"> <img id="menu_icon" src="images/menu.svg"></div>
         <div id="link_list" class="menu_list">
           <a id="menu_link" href="index.html">home</a><br>
-          <a id="menu_link" href="current.html">what i'm doing</a><br>
+          <a id="menu_link" href="about.html">what i'm doing</a><br>
           <a id="menu_link" target="_blank" href="docs/resume.pdf">resume</a><br>
           <a id="menu_link" href="#blog">blog</a><br>
           <a id="menu_link" href="#contact">contact me</a><br>
@@ -37,7 +37,7 @@
           Hello! My name is Sam Jaehnig! Welcome to my personal website.<br> I'm from <light_pink><b>Cupertino, California</b></light_pink> and am currently a rising sophomore studying at the
           <light_pink><b>University of Michigan, Ann Arbor</b></light_pink> in the College of Engineering as a Computer Science & Data Science double major.
         </p>
-        <a id="more_link" href ="current.html">...what i'm up to</u></a>
+        <a id="more_link" href ="about.html">...what i'm up to</u></a>
       </div>
     </div>
     
@@ -55,6 +55,13 @@
       <img id="contact_link" target="_blank" onclick="location.href='https://github.com/samjaehnig'" src="images/github.svg">
       <img id="contact_link" target="_blank" onclick="location.href='https://www.linkedin.com/in/sam-jaehnig-3932b5195/'" src="images/linkedin.svg">
       <img id="contact_link" target="_blank" onclick="location.href='docs/resume.pdf'" src="images/resume.svg">
+      <form action="index.html" name="contact" method="post" data-netlify="true" netlify>
+        <label for="email">email</label><br>
+        <input id="email_input" type="text" name="email"><br>
+        <label for="message">message</label><br>
+        <textarea id="message_input" name="message"></textarea><br>
+        <input id="submit_button" type="submit" value="send"><br>
+      </form>
     </div>
 
     <script src="script.js"></script>
