@@ -1,86 +1,63 @@
 <html>
 
-<head>
-  <meta charset='UTF-8'/>
-  <title>sam jaehnig</title>
-  <link href="styles.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-</head>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>sam jaehnig</title>
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+  </head>
 
-  <body id='body'>
-
-    <div class='intro'>
-
-      <div class='menu'>
-        <div class='menu_header'>
-        <svg id='menu_icon' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"  width="60" height="60" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M29.24,36.12c-0.94989,0.00009 -1.71991,0.77011 -1.72,1.72v17.2c0.00009,0.94989 0.77011,1.71991 1.72,1.72h113.52c0.94989,-0.00009 1.71991,-0.77011 1.72,-1.72v-17.2c-0.00009,-0.94989 -0.77011,-1.71991 -1.72,-1.72zM30.96,39.56h110.08v13.76h-110.08v-3.44h95.46c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645h-95.46zM131.58,48.16c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h3.44c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645zM29.24,75.68c-0.94989,0.00009 -1.71991,0.77011 -1.72,1.72v17.2c0.00009,0.94989 0.77011,1.71991 1.72,1.72h113.52c0.94989,-0.00009 1.71991,-0.77011 1.72,-1.72v-17.2c-0.00009,-0.94989 -0.77011,-1.71991 -1.72,-1.72zM30.96,79.12h110.08v13.76h-110.08zM38.7,87.72c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h77.4c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645zM121.26,87.72c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h5.16c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645zM131.58,87.72c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h3.44c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645zM29.24,115.24c-0.94989,0.00009 -1.71991,0.77011 -1.72,1.72v17.2c0.00009,0.94989 0.77011,1.71991 1.72,1.72h113.52c0.94989,-0.00009 1.71991,-0.77011 1.72,-1.72v-17.2c-0.00009,-0.94989 -0.77011,-1.71991 -1.72,-1.72zM30.96,118.68h110.08v8.6h-95.46c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h95.46v3.44h-110.08zM36.98,127.28c-0.31015,-0.00439 -0.59863,0.15856 -0.75498,0.42645c-0.15635,0.26789 -0.15635,0.59921 0,0.8671c0.15635,0.26789 0.44484,0.43084 0.75498,0.42645h3.44c0.31015,0.00439 0.59863,-0.15856 0.75498,-0.42645c0.15635,-0.26789 0.15635,-0.59921 0,-0.8671c-0.15635,-0.26789 -0.44484,-0.43084 -0.75498,-0.42645z"></path></g></g></svg>
-      </div>
-        <div id='link_list' class='menu_list'>
-          <a id='current_link' href="current.html">what i'm doing</a><br>
-          <a id='information_link' href="#information">about me</a><br>
-          <a id='education_link' href="education.html">education & coursework</a><br>
-          <a id='blog_link' href="#blog">my blog</a><br>
-          <a id='contact_link' href="#contact">contact me</a><br>
+  <body id="body">
+    <div class="intro">
+      <div class="menu">
+        <div class="menu_header"> <img id="menu_icon" src="images/menu.png"></div>
+        <div id="link_list" class="menu_list">
+          <a id="menu_link" href="index.html">home</a><br>
+          <a id="menu_link" href="current.html">what i'm doing</a><br>
+          <a id="menu_link" target="_blank" href="docs/resume.pdf">resume</a><br>
+          <a id="menu_link" href="#blog">blog</a><br>
+          <a id="menu_link" href="#contact">contact me</a><br>
         </div>
       </div>
+      <div class="typing">hi! i'm sam jaehnig!</div>
+      <img id="arrow" onclick="location.href='#information'" src="images/arrow.png">
+    </div>
 
-
-      <div class='typing'> hi! i'm sam jaehnig!</div>
-      <div class='arrow'>
-          <svg id='down_arrow_1' xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;">
-            <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-              stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"
-              style="mix-blend-mode: normal">
-              <path d="M0,172v-172h172v172z" fill="none"></path>
-              <g>
-                <path d="M2.65391,86c0,-46.02344 37.32266,-83.34609 83.34609,-83.34609c46.02344,0 83.34609,37.32266
-                83.34609,83.34609c0,46.02344 -37.32266,83.34609 -83.34609,83.34609c-46.02344,0 -83.34609,-37.32266 -83.34609,-83.34609z" fill="#fd999d">
-                  </path>
-                <path d="M119.29141,66.28047c-10.27969,10.27969
-                -20.55938,20.59297 -30.87266,30.87266c-10.31328,-10.31328 -20.62656,-20.62656 -30.93984,-30.93984c-9.00313,-9.00313 -22.91094,5.00547 -13.87422,14.04219c12.63125,12.63125 25.2625,25.2625
-                37.89375,37.89375c3.82969,3.82969 10.17891,3.72891 13.94141,-0.06719c12.63125,-12.63125 25.2625,-25.2625 37.89375,-37.89375c8.96953,-9.03672 -5.03906,-22.94453 -14.04219,-13.90781z"
-                fill="#ffffff">
-                  </path>
-                </g>
-              </g>
-            </svg>
-        </div>
+    <div class="information" id="information">
+      <img id="profile_image" src="images/profile.png" alt="profile">
+      <div class="intro_text">
+        <p id="intro_title">about me</p>
+        <p id="intro_paragraph">
+          Hello! My name is Sam Jaehnig! Welcome to my personal website.<br> I'm from <light_pink><b>Cupertino, California</b></light_pink> and am currently a rising sophomore studying at the
+          <light_pink><b>University of Michigan, Ann Arbor</b></light_pink> in the College of Engineering as a Computer Science & Data Science double major.
+        </p>
+        <a id="more_link" href ="current.html">...what i'm up to</u></a>
       </div>
-
-      <div class='information' id='information'>
-        <img id='profile_image' src="profile.png" alt="profile" width=250px height=300px>
-        <div class='intro_text'>
-          <p id='intro_title'>about me</p>
-          <p id="intro_paragraph">
-            Hello! My name is Sam Jaehnig! Welcome to my personal website.<br> I'm from <light_pink>Cupertino, California</light_pink> and am currently a rising sophomore studying at the
-            <light_pink>University of Michigan, Ann Arbor</light_pink> in the College of Engineering as a Computer Science & Data Science double major.
-          </p>
-          <p id='more_link' href ='about.html'>...more about me</u></p>
-        </div>
+    </div>
+    
+    <div class="blog" id="blog">
+      <p id="blog_title">blog</p>
+      <div class="blog_links">
+        <p><a id="speech_link" href="speech.html">this i believe</a></p>
+        <p><a id="quotes_link" href="quotes.html">quotes</a></p>
+        <p><a id="coding_journey_1_link" href="coding_journey_1.html">coding journey: part 1</a></p>
       </div>
+    </div>
 
+    <div class="contact" id="contact"> 
+      <img id="contact_link" target="_blank" onclick="location.href='mailto:sjaehnig@umich.edu'" src="images/email.svg">
+      <img id="contact_link" target="_blank" onclick="location.href='https://github.com/samjaehnig'" src="images/github.svg">
+      <img id="contact_link" target="_blank" onclick="location.href='https://www.linkedin.com/in/sam-jaehnig-3932b5195/'" src="images/linkedin.svg">
+      <img id="contact_link" target="_blank" onclick="location.href='docs/resume.pdf'" src="images/resume.svg">
+    </div>
 
-      <div class='blog' id='blog'>
-        <p id="blog_title">my blog</p>
-        <div class='blog_links'>
-          <p><a id='speech_link' href="speech.html">this i believe</a></p>
-          <p><a id='quotes_link' href="quotes.html">quotes</a></p>
-          <p><a id='coding_journey_1_link' href="coding_journey_1.html">coding journey: part 1</a></p>
-        </div>
-      </div>
-
-      <div class='contact' id='contact'>
-        <div class='contact_links'>
-        </div>
-      </div>
-
-      <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 
 </html>

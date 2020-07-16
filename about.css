@@ -1,7 +1,6 @@
-
 body {
   margin: 0px;
-  background-color: #ffc4c4;
+  background-color: #fddfdd;
   height: 100%;
   font-family: 'Quicksand', sans-serif;
 }
@@ -10,13 +9,5 @@ body {
   text-align: center;
   padding: 75px;
   font-size: 75px;
-  color: white;
-}
-
-white {
   color: #ffffff;
-}
-
-dark_pink {
-  color: #FD999D;
 }

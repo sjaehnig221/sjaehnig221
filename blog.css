@@ -1,19 +1,38 @@
 
 body {
-  background-color: #fd999d;
+  background-color: #fddfdd;
   height: 100%;
-  color: #ffc4c4;
-  padding: 75px;
+  color: #000000;
   margin: 0px;
+  padding: 30px;
+}
+
+#back_button {
+  text-align: left;
+  margin-left: 20px;
+  width: 20px;
+  background-color: #FDC3C5;
+  padding: 10px 11px 10px 10px;
+  border-radius: 100%;
+}
+
+#back_button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#back_button span {
+  background-color: #FDC3C5;
+  padding: 5px 15px;
+  border-radius: 100%;
 }
 
 .title {
-  font-size: 75px;
+  font-size: calc(40px + 2vw);
+  min-width: 70%;
   font-family: 'Quicksand', sans-serif;
-  line-height: 75px;
-  padding-bottom: 15px;
+  margin: 10px 0px 10px 0px;
   text-align: center;
-
 }
 
 .date {
@@ -26,18 +45,12 @@ body {
   text-align: left;
   font-size: 18px;
   line-height: 25px;
-  width: 65%;
+  margin: auto;
+  max-width: 65rem;
   padding-top: 30px;
-  color: white;
+  color: #000000;
   font-family: 'Inconsolata', monospace;
   padding-bottom:75px;
-
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-#back {
-  cursor: pointer;
 }
 
 #submit_button, #quotes, #name {
@@ -51,18 +64,17 @@ body {
   font-family: 'Inconsolata', monospace;
   margin-top: 5px;
   padding: 10px;
-  color: #fd999d;
+  color: #fddfdd;
   border: none;
   border-radius: 12px;
 }
 
 #name{
-  width: 25%;
   font-size: 15px;
   font-family: 'Inconsolata', monospace;
   margin-top: 5px;
   padding: 10px;
-  color: #fd999d;
+  color: #fddfdd;
   border: none;
   border-radius: 12px;
 }
@@ -71,32 +83,35 @@ body {
   border: none;
   font-family: 'Inconsolata', monospace;
   font-size: 15px;
-  background-color: white;
-  color: #fd999d;
+  background-color: #FDC3C5;
+  padding: 5px 10px;
+  color: #000000;
   border-radius: 10px;
+  margin-top: 10px;
 }
 
 #submit_button:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 #submit_button:focus {
-  background-color: #ffc4c4;
+  background-color: #FDC3C5;
   border: none;
 }
 
 ::placeholder {
-  color: #fd999d;
+  color: #000000;
 }
 
 
 #blog_inner_link {
-  color: white;
+  color: #000000;
 }
 
 #inner_quote {
-  border-left: 3px solid white;
+  border-left: 3px solid #000000;
   padding: 0px 10px;
   margin: 0px 10px;
-  color: white;
+  color: #000000;
 }

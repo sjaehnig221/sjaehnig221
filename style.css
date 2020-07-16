@@ -1,24 +1,19 @@
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
   margin: 0px;
-  background-color: #ffc4c4;
+  background-color: #fddfdd;
   vertical-align: center;
-
 }
 
-
-.menu {
-  text-align: right;
-
-}
 
 #menu_icon {
-  background-color: #fd999d;
   margin: 5px;
+  cursor: pointer;
+  width: 60px;
+  border-radius: 15px;
 }
 
 .menu_header {
@@ -26,32 +21,37 @@ body {
   justify-content: flex-end;
 }
 
-#link_list {
-    display: none;
-    position: absolute;
-    right: 0;
-    padding-right: 15px;
+#menu_icon:hover {
+  opacity: 0.6;
 }
 
-#current_link, #education_link, #information_link, #blog_link, #contact_link, #more_link  {
-  color: white;
+#link_list {
+  text-align: right;
+  position: absolute;
+  display: none;
+  right: 0;
+  padding-right: 15px;
+}
+
+#menu_link, #more_link{
+  color: #000000;
   font-family: 'Inconsolata', monospace;
   font-size: 21px;
   line-height: 25px;
-  decoration: none;
   text-decoration: none;
 }
 
-#current_link:hover, #education_link:hover, #information_link:hover, #blog_link:hover, #contact_link:hover {
-  color: #fd999d;
+#menu_link:hover, #more_link:hover {
+  opacity: 0.4;
 }
 
 #more_link:hover {
-  color: #ffc4c4;
+  opacity: 0.4;
+  cursor: pointer;
 }
 
 #more_link {
-  text-align: right;
+  color:  #ffffff;
 }
 
 .intro {
@@ -60,15 +60,13 @@ body {
 }
 
 .typing {
-  color: white;
-  text-align: center;
-  vertical-align: center;
-  font-size: 90px;
+  color: #000000;
+  font-size: calc(15px + 6vw);
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
-  padding-top: 215px;
+  padding-top: 25vh;
   padding-bottom: 50px;
   animation:
     type 4.0s steps(50, end);
@@ -79,29 +77,28 @@ body {
   to { width : 100% }
 }
 
-#menu_icon {
-  margin-top: 5px;
+#arrow {
+  width: 30px;
+  background-color: #FDC3C5;
+  padding: 12px 10px 10px 10px;
+  border-radius: 100%;
+}
+
+#arrow:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
-#arrow_button {
-  border-radius: 100%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-}
-
-
-
-
 .information {
-  background-color: #fd999d;
+  background-color: #FDC3C5;
   display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  text-align: center;
 }
 
 .intro_text {
   color: #ffffff;
-  padding: 75px;
   text-align: left;
 }
 
@@ -115,84 +112,70 @@ body {
   font-size: 21px;
   line-height: 25px;
   margin-top: 25px;
+  max-width: 60rem;
 }
 
 #profile_image {
-  margin: 75px;
+  width: calc(100px + 10vw);
+  height: calc(120px + 12vw);
   margin-right: 0px;
   border-radius: 40%;
-  border: 7px solid #ffc4c4;
+  border: 7px solid #fddfdd;
+  margin-right: 50px;
 }
 
 
-
-
 .blog {
-  background-color: #ffc4c4;
+  background-color: #fddfdd;
   text-align: center;
-  color: white;
   font-size: 30px;
   line-height: 35px;
   font-family: 'Inconsolata', monospace;
   margin: 0px;
-  padding-bottom: 75px;
+  padding-bottom: 40px;
 }
-
 
 #blog_title, #contact_title {
   font-family: 'Quicksand', sans-serif;
   font-size: 50px;
   text-align: center;
-  color: white;
+  color: #000000;
   padding: 75px;
   padding-bottom: 0px;
   margin-bottom: 75px;
+  margin-top: 0px;
 }
 
 #coding_journey_1_link, #quotes_link, #speech_link {
-    color: white;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
+  border: 1.25px solid #FDC3C5;
+
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 #coding_journey_1_link:hover, #quotes_link:hover, #speech_link:hover {
-  color: #fd999d;
+  opacity: 0.4;
 }
-
-
-
 
 .contact {
-  background-color: #fd999d;
-  color: white;
-  font-size: 30px;
-  line-height: 35px;
+  background-color: #FDC3C5;
   font-family: 'Inconsolata', monospace;
-  padding-bottom: 75px;
   justify-content: center;
   display: flex;
+  
 }
 
-.contact_links {
-  padding-top: 75px;
-  display: flex;
-  justify-content: space-around;
-  font-size: 25px;
+#contact_link {
+  margin: 75px 10px 75px 10px;
 }
 
-#resume_icon, #instagram_icon, #twitter_icon, #facebook_icon, #linkedin_icon, #email_icon, #down_arrow_1 {
+#contact_link:hover {
+  opacity: 0.6;
   cursor: pointer;
 }
 
-
-
 light_pink {
-  color: #ffc4c4;
-}
-
-dark_pink {
-  color: #fd999d;
-}
-
-red {
-  color: #c75a5f;
+  color: #fddfdd;
 }
