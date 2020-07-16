@@ -10,9 +10,10 @@ body {
 
 
 #menu_icon {
-  margin: 5px;
+  margin-top: 5px;
   cursor: pointer;
   border-radius: 15px;
+  padding-right: 15px;
 }
 
 .menu_header {
@@ -30,6 +31,7 @@ body {
   display: none;
   right: 0;
   padding-right: 15px;
+
 }
 
 #menu_link, #more_link{
