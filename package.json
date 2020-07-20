@@ -1,0 +1,27 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "netlify-lambda": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjaehnig221/sjaehnig221.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjaehnig221/sjaehnig221/issues"
+  },
+  "homepage": "https://github.com/sjaehnig221/sjaehnig221#readme"
+}
