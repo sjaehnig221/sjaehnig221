@@ -1,3 +1,5 @@
 node_modules
-projects.html
-app.js
+functions
+.env
+package.json
+package-lock.json
