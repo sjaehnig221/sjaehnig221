@@ -15,10 +15,10 @@
   </head>
 
   <body>
-    <div> <img id="back_button" onclick="location.href='../index.html'" src="../images/left_arrow.png"></div>
+    <div> <img id="back_button" onclick="location.href='index.html'" src="images/left_arrow.png"></div>
     <p id="title">what i'm doing</p>
     <div class="items" id="items">
-      <p>working on <a id="chalk_link" target="_blank" href="../projects.html"><u>personal projects</u></a></p>
+      <p>working on <a id="chalk_link" target="_blank" href="projects.html"><u>personal projects</u></a></p>
       <p><b>running & biking</b></p>
       <p>participating in the UofM COVID-19 campus challenge</p>
       <p><b>making <a id="chalk_link" target="_blank" href="https://chalkaroundtheblock.netlify.app/"><u>sidewalk art</u></a> with my sister</b></p>
@@ -34,6 +34,7 @@
       request.send();
 
       request.onload = function() {
+        console.log(JSON.parse(request.responseText));
         document.getElementById("song_title").innerHTML = JSON.parse(request.responseText).song_name;
         document.getElementById("artist").innerHTML = JSON.parse(request.responseText).artist;
         document.getElementById("song_title").setAttribute("href", JSON.parse(request.responseText).song_url);
