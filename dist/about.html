@@ -30,17 +30,13 @@
 
     <script>
       var request = new XMLHttpRequest();
-      request.open("GET", "/data", true);
+      request.open("GET", "/.netlify/functions/spotify", true);
       request.send();
 
       request.onload = function() {
-        var body_text = JSON.parse(request.responseText);
-        artist_name = (body_text.item.artists)[0].name;
-        song_name = body_text.item.name;
-        song_url = body_text.item.external_urls.spotify;
-        document.getElementById("song_title").innerHTML = song_name;
-        document.getElementById("song_title").setAttribute("href", song_url);
-        document.getElementById("artist").innerHTML = artist_name;
+        document.getElementById("song_title").innerHTML = JSON.parse(request.responseText).song_name;
+        document.getElementById("artist").innerHTML = JSON.parse(request.responseText).artist;
+        document.getElementById("song_title").setAttribute("href", JSON.parse(request.responseText).song_url);
       }
     </script>
 
