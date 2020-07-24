@@ -83,6 +83,7 @@ body {
   color: #000000;
   border-radius: 10px;
   margin-top: 10px;
+  -webkit-appearance: none;
 }
 
 #submit_button:hover {

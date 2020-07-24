@@ -207,6 +207,7 @@ body {
   padding: 4px 8px;
   color: #ffffff;
   border-radius: 8px;
+  -webkit-appearance: none;
 }
 
 #submit_button:hover {
