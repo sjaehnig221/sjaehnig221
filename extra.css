@@ -77,6 +77,7 @@ a:hover {
 
 #project_image {
   width: 275px;
+  height: inherit;
   padding: 7px;
   border-radius: 15px;
 }
@@ -98,4 +99,8 @@ a:hover {
 #link:hover {
   opacity: 0.6;
   cursor: pointer;
+}
+
+#artist, #song_title {
+  font-size: 25px;
 }
