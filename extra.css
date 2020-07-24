@@ -76,7 +76,8 @@ a:hover {
 }
 
 #project_image {
-  width: 80%;
+  width: 275px;
+  height: 166px;
   padding: 7px;
   border-radius: 15px;
 }
