@@ -19,13 +19,13 @@
     <p id="title">what i'm doing</p>
     <div class="items" id="items">
       <p>working on <a id="chalk_link" href="projects.html"><u>personal projects</u></a></p>
-      <p><b>running & biking</b></p>
+      <p>running & biking</p>
       <p>participating in the UofM COVID-19 campus challenge</p>
-      <p><b>making <a id="chalk_link" target="_blank" href="https://chalkaroundtheblock.netlify.app/"><u>sidewalk art</u></a> with my sister</b></p>
+      <p>making <a id="chalk_link" target="_blank" href="https://chalkaroundtheblock.netlify.app/"><u>sidewalk art</u></a> with my sister</p>
       <p>learning to skateboard</p>
-      <p><b>reading <i>the hate u give</i></b></p>
+      <p>reading <i>dear martin</i></p>
       <p>listening to <u><a target="_blank" id="song_title"></a></u> by <span id="artist"></span></p>
-      <p><b>facetiming friends</b></p>
+      <p>facetiming friends</p>
     </div>
 
     <script>
@@ -34,7 +34,6 @@
       request.send();
 
       request.onload = function() {
-        console.log(JSON.parse(request.responseText));
         document.getElementById("song_title").innerHTML = JSON.parse(request.responseText).song_name;
         document.getElementById("artist").innerHTML = JSON.parse(request.responseText).artist;
         document.getElementById("song_title").setAttribute("href", JSON.parse(request.responseText).song_url);

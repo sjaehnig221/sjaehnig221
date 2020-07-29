@@ -9,16 +9,16 @@ body {
   font-size: calc(40px + 2vw);
   min-width: 70%;
   font-family: 'Quicksand', sans-serif;
-  margin: 0px 0px 15px 0px;
+  margin: 0px;
   text-align: center;
 }
 
 #items {
   font-family: 'Inconsolata', monospace;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: calc(25px + 0.6vw);
+  line-height: 40px;
   color: #000000;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -38,6 +38,7 @@ a:hover {
   background-color: #fdc3c5;
   padding: 10px 11px 10px 10px;
   border-radius: 100%;
+  margin-bottom: 10px;
 }
 
 #back_button:hover {
