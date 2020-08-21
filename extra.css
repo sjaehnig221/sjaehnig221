@@ -59,21 +59,20 @@ a:hover {
 }
 
 .project {
-  background-color: #fdc3c5;
+  background-color: #ffffff;
   width: 350px;
   text-align: center;
   margin: 25px;
   padding: 10px;
   border-radius: 15px;
-  color: #000000;
+  color: #fdc3c5;
   font-family: 'Inconsolata', monospace;
-  box-shadow: 3px 3px #ffffff;
 }
 
 #project_title {
   font-size: 22px;
   margin: 10px;
-  color: white;
+  color: #fdc3c5;
 }
 
 #project_image {

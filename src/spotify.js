@@ -1,8 +1,5 @@
 const express = require('express');
 const serverless = require('serverless-http');
-const dotenv = require('dotenv');
-
-dotenv.config();
 
 const app = express();
 
@@ -14,7 +11,7 @@ router.get("/", (req, response) => {
     const request = require('request');
 
     const client_id = process.env.CLIENT_ID;
-    const client_secret = process.env.CLIENT_SECRET;  
+    const client_secret = process.env.CLIENT_SECRET;
     const refresh_token = process.env.REFRESH_TOKEN;
 
     var authOptions = {
@@ -34,7 +31,7 @@ router.get("/", (req, response) => {
                     song_name = track.name;
                     artist = track.artists[0].name;
                     song_url = track.external_urls.spotify;
-                    response.json({ "song_name": song_name, "artist": artist, "song_url": song_url });                
+                    response.json({ "song_name": song_name, "artist": artist, "song_url": song_url });
                 });
             } else {
                 var body_text = JSON.parse(body);
