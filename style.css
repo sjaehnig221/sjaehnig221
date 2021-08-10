@@ -394,23 +394,6 @@ a:hover {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 430px)  {
-  .links {
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-  }
-
-  #link {
-    margin: 5px;
-  }
-}
-
-@media only screen and (max-width: 709px)  {
-  .projects {
-    padding-top: 200px;
-  }
-}
 
 
 
@@ -430,23 +413,45 @@ a:hover {
 }
 
 #profile_image_contact {
-  width: 175px;
-  height: 210px;
+  width: 225px;
+  height: 270px;
   border-radius: 40%;
-  border: 5px solid #fdc3c5;
+  /* border: 5px solid #fdc3c5; */
 }
 
 #contact_div {
   text-align: center;
-}
-
-#contact_div {
-  border: 5px solid #fdc3c5;
   justify-content: center;
   display: flex;
+}
+
+#contact_span {
+  border: 5px solid #fdc3c5;
+  padding: 10px 30px;
+  border-radius: 50px;
+
 }
 
 #contact_link_mod {
   font-family: 'Inconsolata', monospace;
   font-size-adjust: 18px;
+}
+
+
+@media only screen and (max-width: 430px)  {
+  .links {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  #link {
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 709px)  {
+  .projects, #contact_div {
+    padding-top: 200px;
+  }
 }

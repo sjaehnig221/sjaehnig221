@@ -1,0 +1,68 @@
+body {
+    background-color: #fde7e6;
+
+
+}
+
+.content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.slide {
+    background-color: #ffffff;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.slide_large_title {
+    font-family: 'Delius Unicase', cursive;
+    font-size: 60px;
+    padding: 19vh 0;
+}
+
+.slide_regular_title {
+
+}
+
+.slide_content {
+    font-family: 'Karla', sans-serif;
+}
+
+pink {
+    color: #ffb0ef;
+}
+
+red {
+    color: #ff7d8f;
+}
+
+orange {
+    color: #ffb0b0;
+}
+
+yellow {
+    color: #ffed8d;
+}
+
+green {
+    color: #93eed6;
+}
+
+lightblue {
+    color: #b0fffc;
+}
+
+blue {
+    color: #b0d2ff;
+}
+
+lightpurple {
+    color: #b0b0ff;
+}
+
+purple {
+    color: #9070ff;
+}
