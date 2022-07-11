@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0px;
-  background-color: #fde7e6;
+  background-color: #CCE7FF;
   vertical-align: center;
 }
 
 .pink_body {
-  background-color: #fde7e6;
+  background-color: #CCE7FF;
 }
 
 
@@ -89,7 +89,7 @@ body {
 
 #arrow {
   width: 30px;
-  background-color: #fdc3c5;
+  background-color: #a2d2ff;
   padding: 12px 10px 10px 10px;
   border-radius: 100%;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .highlight {
-  background-color: #fdc3c5;
+  background-color: #a2d2ff;
   padding: 1px 10px;
   border-radius: 10px;
 }
@@ -131,7 +131,7 @@ body {
   line-height: 27px;
   /* margin: 15px 0px; */
   max-width: 50rem;
-  background-color: #fde7e6;
+  background-color: #CCE7FF;
   /* padding: 25px; */
   border-radius: 20px;
 }
@@ -140,7 +140,7 @@ body {
   width: 235px;
   height: 275px;
   border-radius: 40%;
-  border: 7px solid #fdc3c5;
+  border: 7px solid #a2d2ff;
   margin: 0px 50px;
 }
 
@@ -164,7 +164,7 @@ body {
   padding: 20px;
   margin: 15px 10px;
   color: #000000;
-  box-shadow: 3px 3px #fdc3c5;
+  box-shadow: 3px 3px #a2d2ff;
   flex-wrap: wrap;
   max-width: 800px;
   min-width: 275px;
@@ -221,7 +221,7 @@ body {
 #blog_link {
   color: #000000;
   text-decoration: none;
-  border: 1.25px solid #fdc3c5;
+  border: 1.25px solid #a2d2ff;
   padding: 5px 10px;
   border-radius: 10px;
   margin: 10px 30px;
@@ -234,7 +234,7 @@ body {
 } */
 
 .contact {
-  background-color: #fde7e6;
+  background-color: #CCE7FF;
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   display: flex;
@@ -280,7 +280,7 @@ body {
 #submit_button {
   border: none;
   font-family: 'Inconsolata', monospace;
-  background-color: #fdc3c5;
+  background-color: #a2d2ff;
   padding: 4px 8px;
   color: #000000;
   border-radius: 8px;
@@ -362,7 +362,7 @@ a:hover {
   height: 158px;
   padding: 7px;
   border-radius: 15px;
-  border: 1px solid #fdc3c5;
+  border: 1px solid #a2d2ff;
   margin: 5px 15px 5px 5px;
 }
 
@@ -416,7 +416,7 @@ a:hover {
   width: 225px;
   height: 270px;
   border-radius: 40%;
-  /* border: 5px solid #fdc3c5; */
+  /* border: 5px solid #a2d2ff; */
 }
 
 #contact_div {
@@ -426,7 +426,7 @@ a:hover {
 }
 
 #contact_span {
-  border: 5px solid #fdc3c5;
+  border: 5px solid #a2d2ff;
   padding: 10px 30px;
   border-radius: 50px;
 

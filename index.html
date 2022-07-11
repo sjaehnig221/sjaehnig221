@@ -17,59 +17,32 @@
   <body id="body" class="pink_body">
     <div class="intro">
       <div class="menu">
-        <!-- <div class="menu_header"> <img id="menu_icon" src="images/menu.svg"></div> -->
         <div id="link_list" class="menu_list">
           <a id="menu_link" href="index.html"><span class="highlight">home</span></a><br>
-          <!-- <a id="menu_link" href="about.html"><span class="highlight">what i'm doing</span></a><br> -->
           <a id="menu_link" href="projects.html"><span class="highlight">projects</span></a><br>
           <a id="menu_link" target="_blank" href="docs/resume.pdf"><span class="highlight">resume</span></a><br>
-          <a id="menu_link" href="blog.html"><span class="highlight">blog</span></a><br>
-          <a id="menu_link" href="contact.html"><span class="highlight">contact me</span></a><br>
         </div>
       </div>
       <div class="typing">hi! i'm sam jaehnig!</div>
-      <!-- <img id="arrow" onclick="location.href='#information'" src="images/arrow.png"> -->
     </div>
 
     <div class="information" id="information">
       <div class="profile_img"><img id="profile_image" src="images/profile.jpg" alt="profile"></div>
       <div class="intro_text">
-        <!-- <p id="intro_title">about me</p> -->
         <div id="intro_paragraph">
           Hi! I'm Sam!
-          I'm from <light_pink><span class="highlight">Cupertino, California</span></light_pink> & am a rising junior studying at the
+          I'm from <light_pink><span class="highlight">Cupertino, California</span></light_pink> & am a rising senior studying at the
           <light_pink><span class="highlight">University of Michigan, Ann Arbor</span></light_pink> in the College of Engineering as a Computer Science & Data Science double major.
           <br><br>
           What I'm up to:
           <div class="activities">
             <div class="activity">Studying CS & DS at UofM</div>
-            <!-- <div class="activity">Building <a id="chalk_link" href="projects.html"><u>personal projects</u></a></div> -->
             <div class="activity">IA for EECS 280</div>
-            <div class="activity">Interning @ Facebook</div>
-            <!-- <div class="activity">Mentoring for WISE RP</div>  -->
-            <div class="activity">Listening to <u><a target="_blank" id="song_title"></a></u> by <span id="artist"></span></div>    
-            <!-- <div class="activity">Exec board member of <a target="_blank" href="https://tauchiepsilon.org">TXE</a></div> -->
-            <div class="activity">Rock Climbing</div>
-            <!-- <div class="activity">Business Analyst for ACG at UofM</div> -->
-            <!-- <div class="activity">facetiming friends</div> -->
-            <!-- <div class="activity">mentoring for <a href="https://enlight.nyc/"><u>enlight</u></a> cohort 3</div> -->
-
+            <div class="activity">Interning @ Meta</div>
           </div>
-          <!-- Hello! My name is Sam Jaehnig! Welcome to my personal website.<br> I'm from <light_pink><span>Cupertino, California</span></light_pink> and am currently a sophomore studying at the
-          <light_pink><span>University of Michigan, Ann Arbor</span></light_pink> in the College of Engineering as a Computer Science & Data Science double major. -->
         </div>
-        <!-- <a id="more_link" href ="about.html">...what i'm up to</u></a> -->
       </div>
     </div>
-
-    <!-- <div class="blog" id="blog">
-      <p id="blog_title">blog</p>
-      <div class="blog_links">
-        <p><a id="blog_link" href="speech.html">this i believe</a></p>
-        <p><a id="blog_link" href="quotes.html">quotes</a></p>
-        <p><a id="blog_link" href="coding_journey_1.html">coding journey: part 1</a></p>
-      </div>
-    </div> -->
 
     <div class="contact" id="contact">
       <a target="_blank" href="mailto:sjaehnig@umich.edu" id="contact_link"><img src="images/email.svg"></a>
@@ -85,19 +58,6 @@
       </form>
     </div>
 
-    <script src="script.js"></script>
-
-    <script>
-      var request = new XMLHttpRequest();
-      request.open("GET", "/.netlify/functions/spotify", true);
-      request.send();
-
-      request.onload = function() {
-        document.getElementById("song_title").innerHTML = JSON.parse(request.responseText).song_name;
-        document.getElementById("artist").innerHTML = JSON.parse(request.responseText).artist;
-        document.getElementById("song_title").setAttribute("href", JSON.parse(request.responseText).song_url);
-      }
-    </script>
   </body>
 
 </html>
