@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0px;
-  background-color: #CCE7FF;
+  background-color: #9BBDF9;
   vertical-align: center;
 }
 
 .pink_body {
-  background-color: #CCE7FF;
+  background-color: #9BBDF9;
 }
 
 
@@ -89,7 +89,7 @@ body {
 
 #arrow {
   width: 30px;
-  background-color: #a2d2ff;
+  background-color: #518DF5;
   padding: 12px 10px 10px 10px;
   border-radius: 100%;
 }
@@ -102,6 +102,7 @@ body {
 .information {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   padding: 30px;
   text-align: center;
 }
@@ -120,7 +121,7 @@ body {
 }
 
 .highlight {
-  background-color: #a2d2ff;
+  background-color: #518DF5;
   padding: 1px 10px;
   border-radius: 10px;
 }
@@ -131,16 +132,16 @@ body {
   line-height: 27px;
   /* margin: 15px 0px; */
   max-width: 50rem;
-  background-color: #CCE7FF;
+  background-color: #9BBDF9;
   /* padding: 25px; */
   border-radius: 20px;
 }
 
 #profile_image {
-  width: 235px;
-  height: 275px;
+  /* width: 235px; */
+  height: 250px;
   border-radius: 40%;
-  border: 7px solid #a2d2ff;
+  border: 7px solid #518DF5;
   margin: 0px 50px;
 }
 
@@ -164,7 +165,7 @@ body {
   padding: 20px;
   margin: 15px 10px;
   color: #000000;
-  box-shadow: 3px 3px #a2d2ff;
+  box-shadow: 3px 3px #518DF5;
   flex-wrap: wrap;
   max-width: 800px;
   min-width: 275px;
@@ -221,7 +222,7 @@ body {
 #blog_link {
   color: #000000;
   text-decoration: none;
-  border: 1.25px solid #a2d2ff;
+  border: 1.25px solid #518DF5;
   padding: 5px 10px;
   border-radius: 10px;
   margin: 10px 30px;
@@ -234,7 +235,7 @@ body {
 } */
 
 .contact {
-  background-color: #CCE7FF;
+  background-color: #9BBDF9;
   font-family: 'Inconsolata', monospace;
   justify-content: center;
   display: flex;
@@ -280,7 +281,7 @@ body {
 #submit_button {
   border: none;
   font-family: 'Inconsolata', monospace;
-  background-color: #a2d2ff;
+  background-color: #518DF5;
   padding: 4px 8px;
   color: #000000;
   border-radius: 8px;
@@ -362,7 +363,7 @@ a:hover {
   height: 158px;
   padding: 7px;
   border-radius: 15px;
-  border: 1px solid #a2d2ff;
+  border: 1px solid #518DF5;
   margin: 5px 15px 5px 5px;
 }
 
@@ -416,7 +417,7 @@ a:hover {
   width: 225px;
   height: 270px;
   border-radius: 40%;
-  /* border: 5px solid #a2d2ff; */
+  /* border: 5px solid #518DF5; */
 }
 
 #contact_div {
@@ -426,7 +427,7 @@ a:hover {
 }
 
 #contact_span {
-  border: 5px solid #a2d2ff;
+  border: 5px solid #518DF5;
   padding: 10px 30px;
   border-radius: 50px;
 
