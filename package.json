@@ -23,7 +23,7 @@
   "homepage": "https://github.com/sjaehnig221/sjaehnig221#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "netlify-lambda": "^2.0.1",
     "request": "^2.88.2",
     "serverless-http": "^2.5.0"
